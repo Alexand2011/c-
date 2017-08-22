@@ -15,7 +15,15 @@ namespace Snake1
             
             Point p2 = new Point(5, 7, '*');           
             p2.Draw();
-            
+
+           
+            List<Point> pList = new List<Point>();
+            pList.Add( p1 );
+            pList.Add( p2 );
+
+            HorizontalLine line = new HorizontalLine();
+            line.Draw();
+
             Console.ReadLine();
         }       
 
